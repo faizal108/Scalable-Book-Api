@@ -1,6 +1,7 @@
+
 spring:
   application:
-    name: userService
+    name: bookService
   cloud:
     discovery:
       client:
@@ -21,7 +22,7 @@ spring:
     database-platform: org.hibernate.dialect.MySQL8Dialect
 
 server:
-  port: 9091
+  port: 9092
   compression:
     enabled: true
     min-response-size: 6000
